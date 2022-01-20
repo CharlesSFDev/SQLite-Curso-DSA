@@ -4,6 +4,9 @@ os.remove("escola.db") if os.path.exists("escola.db") else None
 
 # Importando o módulo de acesso ao SQLite
 import sqlite3
+import random
+import time
+import datetime
 
 # Cria uma conexão com o banco de dados.
 # Se o banco de dados não existir, ele é criado neste momento.
